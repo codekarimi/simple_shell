@@ -28,30 +28,30 @@
 #define _CODE_ILLEGAL_NUMBER   133
 typedef struct __attribute__((__packed__))
 {
-	int argc;   
+	int argc;
 	char **argv;
-	int mode; 
+	int mode;
 	int error_code;
 	char *command;
-	int n_commands; 
-	char *value_path; 
+	int n_commands;
+	char *value_path;
 	int is_current_path;
-	int status_code; 
-	char *buffer; 
-	char **arguments;  
-	char *environment; 
+	int status_code;
+	char *buffer;
+	char **arguments;
+	char *environment;
 	int pid;
 } general_t;
 
 typedef struct __attribute__((__packed__))
 {
-	char *message; 
-	int code; 
+	char *message;
+	int code;
 } error_t;
 
 typedef struct __attribute__((__packed__))
 {
-	char *command; 
+	char *command;
 	void (*func)(general_t *info, char **arguments);
 } builtin_t;
 #endif /* GENERAL_H */
