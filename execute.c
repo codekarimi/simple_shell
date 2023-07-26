@@ -44,7 +44,6 @@ void execute(char *command, char **arguments, general_t *info, char *buff)
 
 /**
  * current_directory - Execute the command if the order require
- * 
  * @cmd: Command to execute
  * @arguments: Arguments of the @cmd
  * @buff: Line readed

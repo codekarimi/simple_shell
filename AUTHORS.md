@@ -2,4 +2,4 @@
 # For how it is generated, see `hack/generate-authors.sh`.
 
 clifford karimi <ckarimi676@gmail.com>
-Odikpo Somkenechukwu <somkeneneodikpo@gmail.comi>
+Odikpo Somkenechukwu <somkeneneodikpo@gmail.com>
